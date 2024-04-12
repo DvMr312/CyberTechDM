@@ -76,5 +76,13 @@ namespace CyberTechDM
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Vous etes sur de fermer l'application ?", "Exit message", MessageBoxButtons.YesNo, MessageBoxIcon.Question)== DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 } 

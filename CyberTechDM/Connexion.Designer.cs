@@ -35,11 +35,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.MPasseTb = new System.Windows.Forms.TextBox();
             this.ConBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -107,6 +110,17 @@
             this.ConBtn.UseVisualStyleBackColor = false;
             this.ConBtn.Click += new System.EventHandler(this.ConBtn_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.IndianRed;
+            this.button1.Location = new System.Drawing.Point(12, 379);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(119, 60);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Fermer";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Connexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 28F);
@@ -126,6 +140,7 @@
             this.Name = "Connexion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,6 +155,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox MPasseTb;
         private System.Windows.Forms.Button ConBtn;
+        private System.Windows.Forms.Button button1;
     }
 }
 
