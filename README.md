@@ -10,7 +10,7 @@ Le logiciel CyberTechDM devra fournir un résultat convivial, offrant une platef
 •	Zone de filtrage des Articles par leurs Catégories.
 
 3.	Catégories :
-•	Création et gestion de catégories pour organiser le catalogue il doit également être possible d’en supprimé et d’en supprimer, vous devrez enregistrer le nom de cette catégorie ainsi qu’une remarque.
+•	Création et gestion de catégories pour organiser le catalogue il doit également être possible d’en supprimé, vous devrez enregistrer le nom de cette catégorie ainsi qu’une remarque.
 4.	Facturation :
 •	Génération de factures pour les articles achetés avec le montant total ainsi qu’un système d’impression.
 
